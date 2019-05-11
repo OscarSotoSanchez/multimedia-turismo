@@ -14,15 +14,15 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #881806;
 }
 
 a:hover {
-  color: #fec503;
+  color: #881806;
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #881806 !important;
 }
 
 h1,
@@ -93,13 +93,13 @@ h6 {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #881806;
+  border-color: #881806;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #E5280B !important;
+  border-color: #E5280B !important;
   color: white;
 }
 
@@ -109,12 +109,12 @@ h6 {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #881806;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #881806;
   text-shadow: none;
 }
 
@@ -143,17 +143,17 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
+  background-color: #881806;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: #881806;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #881806;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -166,7 +166,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #881806;
 }
 
 @media (min-width: 992px) {
@@ -210,7 +210,13 @@ header.masthead {
 header.masthead .intro-text {
   padding-top: 150px;
   padding-bottom: 100px;
-  color: #fec503;
+  color: #881806;
+}
+
+header.masthead .intro-text .title {
+  border-style: solid; 
+  border-width: 5px;
+  padding: 2% 2% 2%;
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -477,7 +483,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #881806;
 }
 
 .timeline > li .timeline-image h4 {
@@ -637,7 +643,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .postcard .form-control:focus {
-  border-color: #fed136;
+  border-color: #881806;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -705,5 +711,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #881806;
 }
